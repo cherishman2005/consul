@@ -159,7 +159,7 @@ func testServerConfig(t *testing.T) (string, *Config) {
 			"RootCert":            "",
 			"RotationPeriod":      "2160h",
 			"LeafCertTTL":         "72h",
-			"IntermediateCertTTL": "72h",
+			"IntermediateCertTTL": "288h",
 		},
 	}
 
